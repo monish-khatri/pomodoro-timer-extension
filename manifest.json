@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Pomodoro Timer",
+  "version": "1.0",
+  "description": "Pomodoro Timer with Customization",
+  "permissions": ["alarms", "storage", "notifications"],
+  "background": {
+    "service_worker": "assets/js/background.js",
+    "type": "module"
+  },
+  "action": {
+      "default_icon": {
+        "16": "assets/images/icon.png",
+        "48": "assets/images/icon.png",
+        "128": "assets/images/icon.png"
+      },
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "16": "assets/images/icon.png",
+      "48": "assets/images/icon.png",
+      "128": "assets/images/icon.png"
+    }
+}

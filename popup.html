@@ -1,0 +1,40 @@
+<!-- popup.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pomodoro Timer</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+  <script src="assets/js/popup.js" type="module" defer></script>
+</head>
+<body>
+    <h3>Pomodoro Timer</h3>
+    <div class="box">
+        <p id="timer">25:00</p>
+        <button id="start">Start</button>
+        <button id="reset">Reset</button>
+        <div id="custom-setting">
+
+            <h3>Custom Settings</h3>
+            <div>
+                <label for="work-time">Work (mins):</label>
+                <input id="work-time" type="number" min="1">
+            </div>
+            <div>
+                <label for="break-time">Break (mins):</label>
+                <input id="break-time" type="number" min="1">
+            </div>
+            <div>
+                <label for="total-sets">Number of Sets:</label>
+                <input id="total-sets" type="number" min="1">
+            </div>
+            
+            <button id="save-settings">Save</button>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Developed and Managed by<br>
+            <span class="developer">Monish Khatri</span>
+        </p>
+    </div>
+</body>
+</html>
